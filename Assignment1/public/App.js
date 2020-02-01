@@ -6,10 +6,11 @@ var nameElement = React.createElement("div", {
 }, React.createElement("h1", {
   class: "name"
 }, message));
-var button_element = React.createElement("button", {
-  type: "button",
-  class: "repo"
-}, "View My GitHub Repo");
+var button_element = React.createElement("form", null, React.createElement("button", {
+  class: "repo",
+  type: "submit",
+  formaction: "https://github.com/azodi002/CS648-Modern-Web-Dev"
+}, "View My GITHUB Repo"));
 var introduction_element = React.createElement("p", {
   class: "intro"
 }, "I am in my last year of my Master's program here at SDSU, studying Computer Science. I currently work at BAE Systems as a Software Engineer. In my free time I enjoy playing my PS4 and watching Football & Basketball.");

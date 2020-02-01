@@ -7,9 +7,10 @@ const nameElement = (
 );
 
 const button_element = (
-	<button type="button" class = "repo">
-		View My GitHub Repo
-	</button>);
+      <form>
+         <button class="repo" type="submit" formaction="https://github.com/azodi002/CS648-Modern-Web-Dev">View My GITHUB Repo</button>
+      </form>
+);
 
 const introduction_element = (
 	<p class="intro">
